@@ -2,14 +2,14 @@
 Having fun while working in Python, I created an interactive guessing game
 
 # Code:
-  # Using the random library as a base for generating numbers
-import random
+    # Using the random library as a base for generating numbers
+    import random
 
-  # Providing feedback on whether the guess is too high, too low, or correct
-  def play_round():
-    magic_num = random.randint(1, 10)
-    user_input = None
-    while user_input != magic_num:
+    # Providing feedback on whether the guess is too high, too low, or correct
+    def play_round():
+      magic_num = random.randint(1, 10)
+      user_input = None
+      while user_input != magic_num:
         try:
             user_input = int(input("Guess a number between 1-10: "))
             if user_input < 1 or user_input > 10:
