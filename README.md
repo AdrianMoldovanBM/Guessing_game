@@ -2,7 +2,7 @@
 Having fun while working in Python, I created an interactive guessing game
 
 # Code:
-    # Using the random library as a base for generating numbers
+        # Using the random library as a base for generating numbers
 import random
 
     # Providing feedback on whether the guess is too high, too low, or correct
