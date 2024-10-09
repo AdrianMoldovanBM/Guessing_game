@@ -1,5 +1,7 @@
 # Guessing game
-Having fun while working in Python, I created an interactive guessing game
+Coding using Jupyter Notebook, I created a fun little game, that allows the user to guess a random number between 1 and 10 and provides helpful feedback based on their guesses.
+If the user guesses a wrong number, the program prompts for a higher or lower number, until it's correct.
+I also implemented a function for the player to restart or stop the game at the end.
 
 # Code:
         # Using the random library as a base for generating numbers
